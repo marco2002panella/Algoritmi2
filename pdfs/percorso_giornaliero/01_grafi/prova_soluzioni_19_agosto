@@ -1,0 +1,38 @@
+
+es 1: 
+
+6 nodi:[1,2,3,4,5,6]
+8 archi
+in python:
+
+grafo non orientato
+lista=[
+    [2,5],
+    [1,3,4],
+    [2,4,6],
+    [2,3,6],
+    [6,1],
+    [4,5,3]
+    ]
+
+es2:
+//con lista di adiacenza
+def func(G):
+    sum=0
+    for lista in G:
+        sum+=len(lista)
+    return sum/2
+
+
+es3:
+    In generale liste di adiacenza e matrici hanno rappresentazioni diverse e
+    benefici differenti. Dipende molto dall'utilizzo, probabilmente utilizzerei
+    matrici quando si tratta di esercizi dove è comodo accedere direttamente
+    a un arco in entrata o in uscita da un nodo. Mentre userei liste di adiacenza
+    per altri utilizzi. Il tempo di accesso a un arco specifico di un grafo
+    rappresentato a matrice è O(1) di contro lo spazio è sempre O(n*n) e in piu
+    per eventuali visite ci vuole sempre tempo O(n*n)
+
+
+
+
