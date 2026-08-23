@@ -13,6 +13,10 @@ domanda di autovalutazione.
 pdfs/
 ├── guida_algoritmi_30_lode.pdf
 ├── esercizi_giornalieri_algoritmi.pdf
+├── lezioni/
+│   ├── PL8_cammini_minimi_e_algoritmo_di_dijkstra.pdf
+│   ├── PL9_alberi_di_copertura_minimi_e_kruskal.pdf
+│   └── ... PL20
 └── percorso_giornaliero/
     ├── 01_grafi/
     ├── 02_cammini_mst/
@@ -52,6 +56,14 @@ pdfs/
 - programmazione dinamica su sequenze, stringhe e matrici;
 - backtracking per enumerazione, decisione e ottimizzazione;
 - implementazione e test degli algoritmi in Python.
+
+## Schede Delle Lezioni
+
+La cartella `pdfs/lezioni/` contiene una scheda per ogni lezione da `PL8` a
+`PL20`, ricostruita sulle slide ufficiali. Le schede includono riassunto,
+complessita, punti da sapere ed esercizi. Le lezioni `PL2`-`PL7`, dedicate ai
+grafi non pesati, sono escluse perche organizzate separatamente nel percorso
+giornaliero.
 
 ## Nota
 
